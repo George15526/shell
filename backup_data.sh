@@ -35,4 +35,4 @@ fi
 tar -zcvf ${backup_folder}.tgz ${backup_folder}
 
 # 刪除30天前的檔案（指定檔案：一般檔案,名字：.tgz,時間：30天,動作：刪除)
-find ~/backup_folder -type f -name "*.tgz" -mtime +30 -exec rm -rf {} \;
+find ~ -type f -name "*.tgz" -mtime +30 -exec rm -rf {} \;
