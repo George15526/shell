@@ -18,7 +18,7 @@ mkdir -p /home/george/log_history/log.txt
 log_file="/home/george/log_history/log.txt"
 
 # 記錄執行時間
-current_date=$(date "+西元％Y年％m月%d日 (%A) %H時%M分%S秒 %Z")
+current_date=$(date +"西元%Y年%m月%d日 (%A) %H時%M分%S秒 %Z")
 echo "[$current_date] Starting backup process" >> "$log_file"
 
 # 執行備份命令
